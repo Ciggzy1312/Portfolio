@@ -22,7 +22,7 @@ export default function Home() {
     <div className="">
       <div className="py-24 px-10" id="home">
         <div className="px-20 text-left">
-          <h2 className="font-bold py-2">Hey, I'm Deepayan <span role="img" aria-label="wave">👋</span></h2>
+          <h2 className="font-bold py-2">Hey, I am Deepayan <span role="img" aria-label="wave">👋</span></h2>
           <p className="text-xl w-2/3 font-medium">A Web Developer and a open source enthusiast learning and helping many students across communities</p>
         </div>
       </div>
