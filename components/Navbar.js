@@ -3,7 +3,7 @@ import { SiHashnode } from "react-icons/si";
 
 const Navbar = () => {
   return (
-    <div className="text-center py-10 px-10 flex justify-between">
+    <div className="text-center py-8 px-10 flex justify-between sticky top-0 bg-white shadow-xl z-10">
         <ul className="flex justify-center text-lg font-medium">
             <li className="px-8"><a href="#home">Home</a></li>
             <li className="px-8"><a href="#about">About</a></li>
