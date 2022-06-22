@@ -54,78 +54,78 @@ export default function Home() {
         <div className="h-0.5 my-2 bg-gradient-to-r from-gray-800"></div>
         <div className="grid grid-cols-4 gap-6 gap-x-32 py-8">
           <div className="flex justify-between items-center">
-            <Image src={js} width={35} height={35} alt="typescript"/>
             <span className="font-semibold ml-16">Javascript</span>
+            <Image src={js} width={35} height={35} alt="typescript"/>
           </div>
 
           <div className="flex justify-between items-center">
-            <Image src={ts} width={35} height={35} alt="typescript"/>
             <span className="font-semibold ml-16">Typescript</span>
+            <Image src={ts} width={35} height={35} alt="typescript"/>
           </div>
 
           <div className="flex justify-between items-center">
-            <Image src={java} width={35} height={35} alt="typescript"/>
             <span className="font-semibold ml-16">Java</span>
+            <Image src={java} width={35} height={35} alt="typescript"/>
           </div>
 
           <div className="flex justify-between items-center">
-            <Image src={python} width={35} height={35} alt="typescript"/>
             <span className="font-semibold ml-16">Python</span>
+            <Image src={python} width={35} height={35} alt="typescript"/>
           </div>
 
           <div className="flex justify-between items-center">
-            <Image src={react} width={35} height={35} alt="typescript"/>
             <span className="font-semibold ml-16">React</span>
+            <Image src={react} width={35} height={35} alt="typescript"/>
           </div>
 
           <div className="flex justify-between items-center">
-            <Image src={node} width={35} height={35} alt="typescript"/>
             <span className="font-semibold ml-16">NodeJs</span>
+            <Image src={node} width={35} height={35} alt="typescript"/>
           </div>
 
           <div className="flex justify-between items-center">
-            <Image src={mongo} width={35} height={35} alt="typescript"/>
             <span className="font-semibold ml-16">MongoDB</span>
+            <Image src={mongo} width={35} height={35} alt="typescript"/>
           </div>
 
           <div className="flex justify-between items-center">
-            <Image src={redux} width={35} height={35} alt="typescript" className="object-contain"/>
             <span className="font-semibold ml-16">Redux</span>
+            <Image src={redux} width={35} height={35} alt="typescript" className="object-contain"/>
           </div>
 
           <div className="flex justify-between items-center">
-            <Image src={psql} width={35} height={35} alt="typescript" className="object-contain"/>
             <span className="font-semibold ml-16">PostgreSQL</span>
+            <Image src={psql} width={35} height={35} alt="typescript" className="object-contain"/>
           </div>
 
           <div className="flex justify-between items-center">
-            <Image src={git} width={35} height={35} alt="typescript"/>
             <span className="font-semibold ml-16">Git</span>
+            <Image src={git} width={35} height={35} alt="typescript"/>
           </div>
 
           <div className="flex justify-between items-center">
-            <Image src={go} width={35} height={35} alt="typescript"/>
             <span className="font-semibold ml-16">Golang</span>
+            <Image src={go} width={35} height={35} alt="typescript"/>
           </div>
 
           <div className="flex justify-between items-center">
-            <Image src={docker} width={35} height={35} alt="typescript"/>
             <span className="font-semibold ml-16">Docker</span>
+            <Image src={docker} width={35} height={35} alt="typescript"/>
           </div>
 
           <div className="flex justify-between items-center">
-            <Image src={kube} width={35} height={35} alt="typescript"/>
             <span className="font-semibold ml-16">Kubernetes</span>
+            <Image src={kube} width={35} height={35} alt="typescript"/>
           </div>
 
           <div className="flex justify-between items-center">
-            <Image src={redis} width={35} height={35} alt="typescript" className="object-contain"/>
             <span className="font-semibold ml-16">Redis</span>
+            <Image src={redis} width={35} height={35} alt="typescript" className="object-contain"/>
           </div>
 
           <div className="flex justify-between items-center">
-            <Image src={next} width={35} height={35} alt="typescript" className="object-contain"/>
             <span className="font-semibold ml-16">NextJs</span>
+            <Image src={next} width={35} height={35} alt="typescript" className="object-contain"/>
           </div>
         </div>
       </div>
@@ -145,10 +145,32 @@ export default function Home() {
 
           <div className="w-3/5">
             <ul className="list-disc font-medium">
+              <li className="px-8 py-1.5">A online Javascript code editor that can perform in-browser bundling and transpiling of JSX</li> 
               <li className="px-8 py-1.5">Developed the application using React and Typescript</li>
               <li className="px-8 py-1.5">Used Bulma Css for adding the styles</li>
               <li className="px-8 py-1.5">Used ESBuild for handling in-browser JSX transpiling and bundling</li>
               <li className="px-8 py-1.5">Implemented caching using indexedDB to reduce the repeated fetching from npm registry</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="flex justify-between p-8">
+          <div className="">
+            <span className="text-2xl font-semibold">Moodventure</span>
+            <p>NextJs - TailwindCSS - MongoDB - Auth0 - MomentJs - ChartJs</p>
+            <ul className="flex">
+              <li className="pr-8 text-blue-800 font-medium"><a href="https://moodventure.vercel.app/" target="_blank" rel="noreferrer">Live</a></li>
+              <li className="pr-8 text-blue-800 font-medium"><a href="https://www.youtube.com/watch?v=xmAms2Hvg6w&t=3s" target="_blank" rel="noreferrer">Demo</a></li>
+              <li className="pr-8 text-blue-800 font-medium"><a href="https://github.com/Ciggzy1312/moodventure" target="_blank" rel="noreferrer">Github</a></li>
+            </ul>
+          </div>
+
+          <div className="w-3/5">
+            <ul className="list-disc font-medium">
+              <li className="px-8 py-1.5">A full Stack mood tracking web app made where the user can log and see how their day was in different colours in a monthly calendar mode</li>
+              <li className="px-8 py-1.5">Developed using NextJs and TailwindCSS along with momentjs to make the calendar and chartjs to make monthly mood graphs</li>
+              <li className="px-8 py-1.5">Used MongoDB as a database to store user moods and dates for specific days</li>
+              <li className="px-8 py-1.5">Used Auth0 as a authentication provider</li>
             </ul>
           </div>
         </div>
@@ -165,7 +187,7 @@ export default function Home() {
 
           <div className="w-3/5">
             <ul className="list-disc font-medium">
-              <li className="px-8 py-1.5">Developed a website using NextJs and Javascrip</li>
+              <li className="px-8 py-1.5">Developed a website using NextJs and Javascript</li>
               <li className="px-8 py-1.5">Added styles using Chakra-UI</li>
               <li className="px-8 py-1.5">Used BayutAPI from Rapid API to retrieve data of various real estate</li>
             </ul>
